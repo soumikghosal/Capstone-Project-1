@@ -78,6 +78,23 @@ Testing the service
 ```
 python scripts\test.py
 ```
+### API Request format
+
+Below is an example of the data to  be fed to the API. Please refer to the attribute information to find the relevant and valid values for each variables.
+```
+client = {
+    "gender": "Male",
+    "age": 27.0,
+    "hypertension": 0,
+    "heart_disease": 0,
+    "ever_married": "Yes",
+    "work_type": "Private",
+    "residence_type": "Urban",
+    "avg_glucose_level": 28.69,
+    "bmi": 36.6,
+    "smoking_status": "formerly smoked",
+    }
+```
 
 ## Running and Testing AWS Lambda Locally and Remotely
 
