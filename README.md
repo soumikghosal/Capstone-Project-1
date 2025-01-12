@@ -31,7 +31,7 @@ Attribute Information
 
 ## FOLDER STRUCTURE
 - codes: This folder contains the python files
-    - train.py: This file reads the data and builds the best model (Logistic Regression). Please refer to the Modelling.ipynb in the notebook folder, how we select this LR.
+    - train.py: This file reads the data and builds multiple models and chooses the best model (Logistic Regression) based on the performance. Please refer to the Modelling.ipynb in the notebook folder, how we select this LR.
     - predict.py: Flask app
     - test.py: Used to test the Flask app
     - lambda_function.py
