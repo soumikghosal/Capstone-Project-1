@@ -96,7 +96,7 @@ Testing the service locally at: http://localhost:8080/2015-03-31/functions/funct
 python scripts\test_lambda_local.py
 ```
 
-If you dont have an AWS account please go through this (video)[https://www.youtube.com/watch?v=kBch5oD5BkY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=87]. It will cover:
+If you dont have an AWS account please go through this [video](https://www.youtube.com/watch?v=kBch5oD5BkY&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=87). It will cover:
 - Create a repository and login to Docker
 - Publishing the image to AWS ECR
 - Creating AWS Lambda function
@@ -104,7 +104,7 @@ If you dont have an AWS account please go through this (video)[https://www.youtu
 
 ** Note: You will need to configure AWS CLI
 
-Once this is done follow this (video)[https://www.youtube.com/watch?v=wyZ9aqQOXvs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=88]. It covers how to expose the Lambda using API Gateway
+Once this is done follow this [video](https://www.youtube.com/watch?v=wyZ9aqQOXvs&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR&index=88). It covers how to expose the Lambda using API Gateway
 
 
 Testing the service remotely: I have already hosted this service via AWS Lambda function at: https://exkg23rhe2.execute-api.us-east-2.amazonaws.com/capstone-1/predict
