@@ -3,7 +3,7 @@ import requests
 url = "https://exkg23rhe2.execute-api.us-east-2.amazonaws.com/capstone-1/predict"
 
 client = {
-    "gender": "Male",
+    "gender": "Other",
     "age": 27.0,
     "hypertension": 0,
     "heart_disease": 0,

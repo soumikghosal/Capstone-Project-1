@@ -1,7 +1,7 @@
 import cloudpickle
 import pandas as pd
 import numpy as np
-    
+
 with open('stroke_pred_model.bin', 'rb') as f_in:
     pipe, lr_model = cloudpickle.load(f_in)
 
